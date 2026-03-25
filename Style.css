@@ -1,0 +1,776 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.Online_banking_application_Navbar{
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    height: 80px;
+    width: 100%;
+    color: white;
+    user-select: none;
+    box-shadow: 0px 0px 4px rgb(104, 94, 94);
+    /* position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999; */
+}
+.Online_banking_application_Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .banking_application_link ul li{
+    display: inline-block;
+    color: white;
+} */
+.navlink{
+    color: white;
+}
+.banking_application_link{
+    margin-right: 50px;
+}
+.banking_application_link .list_of_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+}
+.banking_application_nav_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.banking_application_nav_heading .navbar_heading{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-style: italic;
+    user-select: none;
+    cursor: pointer;
+}
+.banking_application_nav_heading{
+    margin-left: 50px;
+}
+.banking_application_link .list_of_link .navlink{
+    cursor: pointer;
+    user-select: none;
+    color: black;
+    font-style: italic;
+    transition: 0.3s all;
+}
+.banking_application_link .list_of_link .navlink:hover{
+    color: white;   
+    transition: 0.3s all; 
+}
+.bank_logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.login_btn{
+    height: 35px;
+    width: 100px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.register_btn{
+    height: 35px;
+    width: 100px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.logout_btn{
+     height: 35px;
+    width: 100px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.slide_container{
+    width: 100%;
+    height: 200px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.footer_container{
+    background: linear-gradient(to right, #43e97b 0%, #38f9d7 90%);
+    margin-top: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 150px;
+    padding: 30px;
+    user-select: none;
+}
+.color_blue{
+    color: rgb(47, 5, 143);
+}
+.footer_bank_name_heading{
+    font-size: 30px;
+}
+.footer_bank_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 10px;
+}
+.footer_bank_name_heading{
+    margin-bottom: 10px;
+}
+.footer_quick_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.quick_link{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: column;
+}
+.bank_service_heading{
+    color: rgb(7, 7, 113);
+}
+.banking_service{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_bank_service{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_contact_details{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: column;
+}
+.footer_contact{
+     color: rgb(7, 7, 113);
+}
+.quick_lines_heading{
+    color: rgb(7, 7, 113);
+}
+.footer_desc{
+    background: linear-gradient(to right, #43e97b 0%, #38f9d7 90%);
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.footer_desc_head1{
+    color: rgb(5, 5, 100);
+}
+.footer_contact_details p{
+    color: rgb(12, 12, 156);
+}
+.footer_underline{
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(11, 235, 11);
+    border-bottom-right-radius: 100%;
+}
+.slide_main_comtainer{
+    margin-top: 0px;
+}
+.card_container{
+    margin-top: 0px;  
+    padding: 50px; 
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.image_card{
+    height: 250px;
+    width: 250px;
+    transition: 0.5s all;
+}
+.image_card:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+.card_desc{
+    width: 500px;
+}
+.card_desc h1{
+    color: rgb(12, 12, 112);
+    margin-bottom: 15px;
+}
+.card_desc p{
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.load_service_btn{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    letter-spacing: 1px;
+}
+.card{
+    border: 1px solid rgb(220, 207, 207);
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(250, 247, 247);
+    box-shadow: 0px 0px 15px rgb(212, 204, 204);
+    border-radius: 3px;
+    user-select: none;
+}
+.card_flex_container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.login_container{
+    border: 1px solid rgb(220, 208, 208);
+    padding: 30px;
+    width: 23%;
+    box-shadow: 0px 0px 10px rgb(206, 194, 194);
+    border-radius: 10px;
+}
+.login_flex_design{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: start;
+}
+.user_login_form{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    /* text-shadow: 1px 1px 1px rgb(113, 60, 60); */
+    user-select: none;
+}
+.login_container .login_form_design .input_field input[type="text"]{
+    height: 35px;   
+    width: 100%;    
+    padding: 10px;  
+}
+.input_field input[type="password"]{
+     height: 35px;   
+    width: 100%;    
+    padding: 10px;  
+}
+.login_form_design{
+    text-align: center;
+}
+.login_container .login_form_design .login_btn{
+    height: 30px;
+    width: 30%;
+    text-align: center;
+}
+.login_container .login_form_design label{
+    font-size: 16px;
+}
+.login_container{
+    margin: 50px;
+    margin-left: 35%;
+}
+
+.register_container{
+    border: 1px solid rgb(216, 203, 203);
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgb(210, 199, 199);
+    border-radius: 10px;
+}
+.register_flex_container{
+    display: flex;  
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.regsiter_input_field{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5px;
+}
+.register_container .regsiter_input_field input[type="text"],
+input[type="password"],input[type="date"],input[type="number"]{
+    height: 34px;
+    width: 430px;
+    padding: 10px;
+}
+.address{
+    height: 34px;
+    width: 430px;
+}
+.user_register_form{
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.regsiter_input_redio{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+}
+.regsiter_submit_btn{
+    margin-left: 35%;
+}
+.register_container label{
+    font-size: 16px;
+}
+.register_container{
+    margin: 30px;
+    margin-left: 30%;
+}
+
+.create_new_account_component{
+    border: 1px solid rgb(226, 213, 213);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px;
+    user-select: none;
+    box-shadow: 0px 0px 10px rgb(213, 203, 203);
+    background-color: rgb(62, 255, 75);
+}
+.create_account_heading{
+    color: rgb(10, 10, 137);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.create_account_main_contaner{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+.input_field_block{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.input_field_block .input_box{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.create_new_account_component .create_account_main_contaner .input_box input[type="text"],
+input[type="number"],input[type="date"],input[type="number"]{
+    height: 35px;
+    width: 600px;
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.create_new_account_component  .input_field_block input[type="text"]{
+    height: 35px;
+    width: 600px;
+    padding: 20px;
+}
+.create_new_account_component .create_account_main_contaner label{
+    font-size: 17px;
+}
+.input_box_radio{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.create_new_account_component .create_account_main_contaner input[type="radio"]{
+    transform: scale(1.3);
+}
+.create_account_btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.create_new_account_component  .create_account_submit_btn{
+    height: 35px;
+    width: 150px;
+    color: white;
+    background: rgb(12, 12, 148);
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.account_details_container{
+    margin: 30px;
+    user-select: none;
+}
+.account_view_details{
+    text-align: center;
+    color: lime;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.table_container{
+    border-style: solid;
+    border-color: rgb(236, 229, 229);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(200, 189, 189);
+}
+.table_container tr th{
+    padding: 20px;
+    height: 30px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    font-style: italic;
+}
+.table_container tr td{
+    text-align: center;
+    padding: 5px;
+    height: 60px;
+    /* font-style: italic; */
+}
+.account_details_tables .edit_btn{
+    color: blue;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.account_details_tables .edit_btn:hover{
+    font-size: 25px;
+    transition: 0.4s all;
+    text-decoration: underline;
+}
+.account_details_tables .delete_btn{
+    color: red;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.account_details_tables .delete_btn:hover{
+    font-size: 25px;
+    transition: 0.4s all;
+    text-decoration: line-through;
+}
+.account_details_tables .show_account_view{
+    color: lime;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.account_details_tables .show_account_view:hover{
+    font-size: 25px;
+    transition: 0.4s all;
+    /* text-decoration: line-through; */
+}
+.account_details_tables tr:nth-child(odd){
+    background-color: rgb(244, 248, 244);
+}
+.account_details_tables tr, th{
+    border-style: solid;
+    border-color: white;
+}
+.customer_account_details_container{
+    margin: 30px;
+    text-align: center;
+}
+.customer_account_details_container .heading{
+    text-align: center;
+    color: rgb(9, 9, 137);
+}
+.account_design_container{
+    text-align: center;
+    margin-left: 250px;
+}
+.account_design_container .customer_account_table{
+    height: 500px;
+    width: 1000px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(238, 230, 230);
+    border-radius: 10px;
+    user-select: none;
+}
+.account_design_container .customer_account_table tr{
+    text-align: start;
+}
+.account_design_container .customer_account_table th{
+    text-align: start;
+    font-size: 20px;
+    color: rgb(14, 14, 124);
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px;
+}
+.account_design_container .customer_account_table td{
+     border-style: solid;
+     border-color: rgb(240, 232, 232);
+     border-radius: 3px;
+    padding: 15px;
+}
+.account_design_container table{
+    border-style: none;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(227, 222, 222);
+}
+.account_design_container table tr td:first-child, table tr th:first-child{
+    /* color: blue; */
+    letter-spacing: 0.4px;
+    /* background-color: rgb(172, 194, 202); */
+    /* font-weight: bold; */
+    background: rgb(63, 244, 63);
+    /* color: white; */
+    border-radius: 2px;
+    outline: none;
+}
+.back_cancle_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.back_cancle_btn .back_btn{
+    height: 35px;
+    width: 110px;
+    background: rgb(12, 12, 143);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+}
+.back_cancle_btn .cancle_btn{
+     height: 35px;
+    width: 110px;
+    background: rgb(250, 2, 2);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+}
+
+.register_field_container .register_flex_container .register_form_date{
+    width: 430px;
+    height: 30px;
+}
+.register_field_container .register_flex_container .register_form_mob{
+    width: 430px;
+    height: 30px;
+}
+
+.update_account_container{
+    margin: 30px;
+    /* margin-left: 200px; */
+}
+.update_account_form{
+    border: 1px solid rgb(227, 217, 217);
+    padding: 30px;
+    border-radius: 10px;
+    width:45%;
+    box-shadow: 0px 0px 10px rgb(215, 207, 207);
+    margin-left: 25%;
+    background-color: rgb(131, 255, 131);
+}
+.update_account_form h2{
+    margin-bottom: 20px;
+    color: rgb(12, 12, 127);
+    text-align: center;
+}
+.account_container_flex{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.update_account_form .update_form_input{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.update_account_form .account_container_flex .update_form_input input[type="email"],
+input[type="text"]{
+    height: 40px;
+    width: 600px;
+    padding: 20px;
+}
+.update_form_brn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.account_update_btn{
+    height: 33px;
+    width: 130px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(12, 12, 142);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.account_update_back_btn{
+    height: 33px;
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(13, 177, 13);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.account_update_cancle_btn{
+    height: 33px;
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.deposite_trancation{
+    /* margin: 50px; */
+    /* margin-left: 30%; */
+    border: 1px solid rgb(221, 205, 205);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(160, 250, 160);
+    box-shadow: 0px 0px 10px rgb(202, 188, 188);
+    /* width: 30%; */
+}
+.deposition_description{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.deposite_trancation h2{
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    /* color: red; */
+}
+.account_num_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.amount_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.Deposit_btn .deposite_btn{
+    height: 35px;
+    width: 100px;
+    background: red;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px rgb(146, 133, 133);
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.deposition_description .account_no{
+    height: 30px;
+    width: 400px;
+}
+.deposition_description .account_balance{
+    height: 30px;
+    width: 400px;
+}
+.Deposit_btn{
+    text-align: center;
+    margin-left: 36%;
+}
+
+.loading_stage{
+    margin: 30px;
+    color: red;
+}
+.main_transaction_controller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.transaction_history{
+    margin: 50px;
+}
